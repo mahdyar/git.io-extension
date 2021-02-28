@@ -1,0 +1,134 @@
+html {
+  width: 300px;
+  height: 215px;
+  background-color: #f1f2f4;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: #2a4757;
+}
+header {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+  text-align: center;
+}
+.input {
+  background-color: #ffffff;
+  padding: 5px 15px;
+  border: #24292e 1px solid;
+  border-radius: 15px;
+  box-shadow: rgb(167 182 190 / 20%) 0px 10px 35px;
+  border-image: initial;
+  border-radius: 100px;
+  border: 2px solid rgb(245, 245, 245);
+}
+#container {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -ms-transform: translate(-50%, -20%);
+  transform: translate(-50%, -20%);
+  width: 100%;
+}
+#active-tab-url {
+  margin: 50px auto 0;
+  text-align: center;
+  width: 60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+#shorten-btn {
+  color: #ffffff;
+  display: block;
+  margin: 10px auto;
+  border: transparent 2px solid;
+  border-radius: 10px 0 10px 0;
+  padding: 5px 10px;
+  outline: none;
+  font-size: 11px;
+}
+.is-not-shortened {
+  background-color: #aaaaaa;
+}
+.is-not-shortened:hover {
+  background-color: #4e11c9;
+  cursor: pointer;
+}
+.is-shortened {
+  background-color: #aaaaaa;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #441e47;
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  padding-left: 10px;
+  font-size: 11px;
+}
+footer a {
+  color: #441e47;
+  text-decoration: none;
+}
+#loading {
+  display: none;
+  margin: 10px auto;
+  text-align: center;
+}
+.address-btn {
+  margin-left: 45px;
+  font-size: 9px;
+  cursor: pointer;
+  display: block;
+  margin-top: 5px;
+}
+#custom-address-input {
+  margin: 5px 40px 0;
+  text-align: left;
+  width: 25%;
+  outline: none;
+  font-size: 11px;
+}
+#custom-address {
+  display: none;
+}
+#not-a-github-url {
+  text-align: center;
+  display: none;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  border-top: 1px solid #e1e4e8;
+  width: 100%;
+  padding: 4px 5px;
+  text-align: center;
+}
+footer svg {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  margin: 5px auto;
+  line-height: 50px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

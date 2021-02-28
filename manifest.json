@@ -1,0 +1,22 @@
+{
+  "name": "Git.io",
+  "version": "1.0",
+  "description": "Shorten your GitHub urls to a git.io url.",
+  "browser_action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "images/git_io_16.png",
+      "32": "images/git_io_32.png",
+      "48": "images/git_io_48.png",
+      "128": "images/git_io_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/git_io_16.png",
+    "32": "images/git_io_32.png",
+    "48": "images/git_io_48.png",
+    "128": "images/git_io_128.png"
+  },
+  "permissions": ["tabs", "https://git.io/*"],
+  "manifest_version": 2
+}
