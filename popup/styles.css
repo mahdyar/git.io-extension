@@ -1,10 +1,11 @@
-html {
+body {
   width: 300px;
   height: 215px;
   background-color: #f1f2f4;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   color: #2a4757;
+  overflow: hidden;
 }
 header {
   width: 100%;
