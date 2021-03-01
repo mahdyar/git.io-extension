@@ -1,5 +1,5 @@
 # Git.io extension
-A Chrome/Firefox extension for GitHub's URL shortener (git.io).
+A A cross-browser extension for GitHub's URL shortener (git.io). extension for GitHub's URL shortener (git.io).
 ## Installation 
 For now, you can install the extension manually:
 1. Enable `Developer mode`. ([How?](https://developer.chrome.com/docs/extensions/mv2/faq/#faq-dev-01))
