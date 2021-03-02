@@ -10,8 +10,6 @@ On Chrome/Chromium-based browsers, For now, you can install the extension manual
 3. Go to `chrome://extensions/` and click on `Load unpacked` and load the extracted folder from previous step.
 ## Preview
 ### Random Address
-![random-address](https://user-images.githubusercontent.com/20593549/109420918-490f9c00-79ea-11eb-9e71-42754c448788.gif)
+![random-address](https://user-images.githubusercontent.com/20593549/109649199-d2e97180-7b70-11eb-977f-aa917dffee03.gif)
 ### Custom Address
-![custom-address](https://user-images.githubusercontent.com/20593549/109420934-5b89d580-79ea-11eb-830a-0212299e6cac.gif)
-
-
+![custom-address](https://user-images.githubusercontent.com/20593549/109649187-ce24bd80-7b70-11eb-8143-6d4ecd9c5108.gif)

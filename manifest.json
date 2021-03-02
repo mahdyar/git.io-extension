@@ -1,6 +1,6 @@
 {
   "name": "Git.io",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Shorten your GitHub urls to a git.io url.",
   "browser_action": {
     "default_popup": "popup/popup.html",
