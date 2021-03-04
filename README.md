@@ -17,4 +17,4 @@ On Chrome/Chromium-based browsers, you can:
 ```
 git clone https://github.com/mahdyar/git.io-extension.git
 ```
-3. Go to `chrome://extensions/` and click on `Load unpacked` and load the extracted folder from previous step.
+3. Go to `chrome://extensions/` and click on `Load unpacked` and load the folder from previous step.
