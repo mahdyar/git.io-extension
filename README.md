@@ -13,5 +13,8 @@ A cross-browser extension for GitHub's URL shortener (git.io).
 ## Development
 On Chrome/Chromium-based browsers, you can:
 1. Enable `Developer mode`. ([How?](https://developer.chrome.com/docs/extensions/mv2/faq/#faq-dev-01))
-2. Download the extension from [here](https://github.com/mahdyar/git.io-extension/archive/main.zip) and unzip it.
+2. Clone the repository:
+```
+git clone https://github.com/mahdyar/git.io-extension.git
+```
 3. Go to `chrome://extensions/` and click on `Load unpacked` and load the extracted folder from previous step.
