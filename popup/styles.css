@@ -20,8 +20,6 @@ header {
 .input {
   background-color: #ffffff;
   padding: 5px 15px;
-  border: #24292e 1px solid;
-  border-radius: 15px;
   box-shadow: rgb(167 182 190 / 20%) 0px 10px 35px;
   border-image: initial;
   border-radius: 100px;
@@ -132,4 +130,32 @@ footer svg {
 a {
   text-decoration: none;
   color: inherit;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #2d333b;
+    color: #ffffff;
+  }
+  .input {
+    background-color: #22272d;
+    box-shadow: #22272d 0px 10px 35px;
+    border: 2px solid #22272d;
+    color: inherit;
+  }
+  #shorten-btn {
+    color: #2d333b;
+  }
+  .is-not-shortened{
+    background-color: #ccd9e5;
+  }
+  .is-not-shortened:hover {
+    background-color: #6e3bce;
+    }
+  .is-shortened {
+    background-color: #ccd9e5;
+
+  }
+  footer {
+    border-top: 1px solid #444c56;
+  }
 }
