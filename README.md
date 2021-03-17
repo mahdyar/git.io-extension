@@ -4,6 +4,13 @@ A cross-browser extension for GitHub's URL shortener (git.io).
 <a href="https://chrome.google.com/webstore/detail/gitio/klipmjlpckhkjiipblhpaefnaakiccel"><img src="https://user-images.githubusercontent.com/20593549/109499549-4aa09900-7aaa-11eb-9a08-606576d9b18a.png" alt="Google Chrome" width="45"/></a>
 <a href="https://addons.mozilla.org/en-GB/firefox/addon/git-io/"><img src="https://user-images.githubusercontent.com/20593549/109499665-71f76600-7aaa-11eb-96a7-caa03382d615.png" alt="Mozilla Firefox" width="45" /></a>
 
+## Supported domains
+- `https://github.com/*`
+- `https://*.github.com/*`
+- `https://*.github.io`
+- `https://*.github.io/*`
+- `https://*.githubusercontent.com/*`
+
 ## Preview
 ### Random Address
 ![random-address](https://user-images.githubusercontent.com/20593549/109649199-d2e97180-7b70-11eb-977f-aa917dffee03.gif)
