@@ -6,7 +6,9 @@ chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
   parser.href = url;
   if (
     /^.*.github.com$/.test(parser.hostname) ||
-    parser.hostname == "github.com"
+    parser.hostname == "github.com" ||
+    /^.*.github.io$/.test(parser.hostname) ||
+    /^.*.githubusercontent.com$/.test(parser.hostname)
   ) {
     $("#active-tab-url").text(url);
     $("#shorten-btn").click(function () {
