@@ -74,3 +74,10 @@ $("#random-address-btn").click(function () {
   $("#custom-address-btn").slideDown(100);
   hasCustomAddress = false;
 });
+
+$("#shortcuts a").click(function (e) {
+  e.preventDefault();
+  var newURL = "chrome://extensions/shortcuts";
+  chrome.tabs.create({ url: newURL });
+  return false;
+});
