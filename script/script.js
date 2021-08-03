@@ -59,6 +59,7 @@ chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
     });
   } else {
     $("#container").hide();
+    $("#shortcuts").hide();
     $("#not-a-github-url").show();
   }
 });
