@@ -11,12 +11,28 @@
       "128": "images/git_io_128.png"
     }
   },
+  "commands": {
+    "shorten-url-copy-to-clipboard": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+O",
+        "mac": "Command+Shift+O"
+      },
+      "description": "Shorten the url and copy it to the clipboard."
+    }
+  },
   "icons": {
     "16": "images/git_io_16.png",
     "32": "images/git_io_32.png",
     "48": "images/git_io_48.png",
     "128": "images/git_io_128.png"
   },
-  "permissions": ["tabs", "https://git.io/*"],
+  "background": {
+    "scripts": [
+      "script/jquery.js",
+      "script/functions.js",
+      "script/background.js"
+    ]
+  },
+  "permissions": ["tabs", "activeTab", "https://git.io/*"],
   "manifest_version": 2
 }

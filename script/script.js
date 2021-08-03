@@ -4,12 +4,7 @@ chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
   let url = tabs[0].url;
   let parser = document.createElement("a");
   parser.href = url;
-  if (
-    /^.*.github.com$/.test(parser.hostname) ||
-    parser.hostname == "github.com" ||
-    /^.*.github.io$/.test(parser.hostname) ||
-    /^.*.githubusercontent.com$/.test(parser.hostname)
-  ) {
+  if (isGithubURL(parser.hostname)) {
     $("#active-tab-url").text(url);
     $("#shorten-btn").click(function () {
       if (hasCustomAddress && $("#custom-address-input").val() == "") {
@@ -33,8 +28,8 @@ chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
           data: data,
           success: function (data, textStatus, request) {
             if (data == url) {
-              let shortenUrl = request.getResponseHeader("Location");
-              $("#active-tab-url").text(shortenUrl);
+              let shortenedUrl = request.getResponseHeader("Location");
+              $("#active-tab-url").text(shortenedUrl);
               $("#loading").hide();
               $("#custom-address-btn").hide();
               $("#custom-address").hide();
