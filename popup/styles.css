@@ -111,11 +111,16 @@ footer a {
   transform: translate(-50%, -50%);
   width: 70%;
 }
-#shortcuts{
+#shortcuts {
   position: absolute;
   bottom: 15%;
   left: 10px;
   font-size: 11px;
+}
+.shortcut{
+  background-color: #ffffff;
+  padding: 1px;
+  font-size: 10px;
 }
 footer {
   position: absolute;
@@ -148,18 +153,20 @@ a {
     border: 2px solid #22272d;
     color: inherit;
   }
+  .shortcut{
+    background-color: #22272d;
+  }
   #shorten-btn {
     color: #2d333b;
   }
-  .is-not-shortened{
+  .is-not-shortened {
     background-color: #ccd9e5;
   }
   .is-not-shortened:hover {
     background-color: #6e3bce;
-    }
+  }
   .is-shortened {
     background-color: #ccd9e5;
-
   }
   footer {
     border-top: 1px solid #444c56;
