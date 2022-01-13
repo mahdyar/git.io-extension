@@ -1,3 +1,5 @@
+### This extension won't work anymore according to GitHub's Blog: [Git.io no longer accepts new URLs](https://github.blog/changelog/2022-01-11-git-io-no-longer-accepts-new-urls/).
+-------
 # Git.io extension
 A cross-browser extension for GitHub's URL shortener (git.io).
 ## Download
